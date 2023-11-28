@@ -1,0 +1,84 @@
+.nav {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 24%;
+    height: 100%;
+}
+
+.logo img {
+    height: 141%;
+    width: 30%;
+    padding-left: 4px;;
+    margin-top: -15px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    align-items: center;
+
+}
+.icons{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons span{
+    color: rgb(45, 44, 44);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 10px;
+
+
+}
+.icons img{
+    padding: 5px;
+    height: 50%;
+
+}
+
+
+.items ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+
+.items a {
+    text-decoration: none;
+    color: rgb(13, 149, 27);
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.items a:hover{
+    transition: all  0.5s;
+    border-radius: 5px;
+    background-color: rgb(13, 149, 27);
+    color: white;
+    padding: 4px;
+}
+
+
+
